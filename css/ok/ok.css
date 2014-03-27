@@ -58,11 +58,6 @@ span.bold {
     right:30px;
     z-index:1;
     font-family:'Droid Sans Mono',Arial,sans-serif;
-    -webkit-transform: rotate(-15deg); /* Safari */
-    -moz-transform: rotate(-15deg); /* Firefox */
-    -ms-transform: rotate(-15deg); /* IE */
-    -o-transform: rotate(-15deg); /* Opera */
-    transform: rotate(-15deg);
     font-size:70px;
     color:#c00;
     border:solid 4px #c00;
@@ -77,3 +72,16 @@ span.bold {
     background-color: rgba(255,255,255,0.6);
 }
 
+#next-meeting {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  background: #c00;
+  color: #fff;
+  padding: 10px;
+  -webkit-transform: rotate(-15deg); /* Safari */
+  -moz-transform: rotate(-15deg); /* Firefox */
+  -ms-transform: rotate(-15deg); /* IE */
+  -o-transform: rotate(-15deg); /* Opera */
+  transform: rotate(-15deg);
+}
