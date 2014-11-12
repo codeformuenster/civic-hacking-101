@@ -1,3 +1,6 @@
+h1 {
+  text-align: center;
+}
 small.ok-orange {
 	background-color: rgb(255, 84, 73);
 	font-family: 'Droid Sans Mono', monospace;
@@ -45,7 +48,11 @@ span.bold {
 .ok-lab-red .reveal .state-background {
 	background: rgba(254, 126, 117, 1.0 );
 }
-
+.ok-lab-red  h2,
+.ok-lab-red  li,
+.ok-lab-red  p {
+  color: #fff;
+}
 #how, #goals{
 	font-size: 30px;
 }
